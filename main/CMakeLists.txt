@@ -1,8 +1,13 @@
 idf_component_register( SRCS 
-                            "vb_demo.c" 
+                            "main.c"
                             "opus_wapper.c"
                             "mqtt_handler.c"
                             "led.c"
+                            "wifi_manager.c"
+                            "websocket_client.c"
+                            "audio_session.c"
+                            "button_handler.c"
+                            "session_manager.c"
                     
                         INCLUDE_DIRS "."
                             REQUIRES 
